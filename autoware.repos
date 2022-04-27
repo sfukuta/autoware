@@ -33,10 +33,10 @@ repositories:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
     version: tier4/universe
-  universe/vendor/grid_map:
+  universe/vendor/grid_map: # TODO: Use upstream after https://github.com/ANYbotics/grid_map/pull/349 is merged
     type: git
-    url: https://github.com/ANYbotics/grid_map.git
-    version: ba2f9cb6e62f7ee9c5bac7401391a211e442e459
+    url: https://github.com/tier4/grid_map.git
+    version: prepare/humble
   universe/vendor/muSSP:
     type: git
     url: https://github.com/tier4/muSSP.git
