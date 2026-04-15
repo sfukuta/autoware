@@ -90,7 +90,7 @@ simulations:
         type: container
         artifact: main
       runtime:
-        type: gpu1/amd64/large
+        type: gpu2/amd64/large
       parameters:
         centerpoint_model_path: "/opt/autoware/mlmodels/centerpoint_tiny2_training001"
   - name: localization
